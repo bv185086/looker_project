@@ -10,7 +10,10 @@ datagroup: likhitha_report_sample_default_datagroup {
 
 persist_with: likhitha_report_sample_default_datagroup
 
-
+access_grant: can_view_explore {
+  user_attribute:visible
+  allowed_values:["yes"]
+}
 explore: mark_list {
-
+  required_access_grants:[can_view_explore]
 }
