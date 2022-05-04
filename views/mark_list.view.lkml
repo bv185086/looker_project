@@ -1,5 +1,5 @@
 view: mark_list {
-  required_access_grants: [can_view_explore]
+  #required_access_grants: [can_view_explore]
   sql_table_name: `Likhitha_demo.Mark_list`
     ;;
   drill_fields: [id]
